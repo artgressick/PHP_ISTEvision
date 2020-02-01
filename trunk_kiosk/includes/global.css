@@ -1,0 +1,69 @@
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+input {
+	font-size:14px;
+}
+
+textarea {
+     resize: none;
+}
+
+body {
+	background-color: white;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.main_window {
+	background-image: url(http://kiosk.istevision.org/images/main_window.png);
+}
+.text_description {
+	font-size: 14px;
+	color: black;
+}
+.text_description a {
+	color: yellow;
+	text-decoration: none;
+}
+.text_description a:hover {
+	text-decoration: underline;
+}
+.form_required {
+	text-shadow: 0px 1px #a4cd50;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0060a8;
+}
+.form_optional {
+	font-size: 14px;
+	color: black;
+}.at_least {
+	color: black;
+}
+.form_div {
+	padding-top: 15px;
+}
+
+/* new CSS from main site */
+.contents {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.left_column {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.right_column {
+	padding-top: 15px;
+}
+.area {
+	background-image: url(http://kiosk.istevision.org/images/area.png);
+	height: 200px;
+	width: 360px;
+}

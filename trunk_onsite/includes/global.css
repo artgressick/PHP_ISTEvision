@@ -1,0 +1,726 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+body {
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.navigation {
+	text-shadow: 0px 1px #e6e6e6;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 36px;
+	height: 36px;
+	text-align: center;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/nav-off-bg.gif);
+}
+
+.navigation a {
+	color: black;
+	text-decoration: none;
+}
+
+/*
+.navigation:hover {
+	text-shadow: 0px 1px black;
+	color: white;
+	background-image: url(http://www.istevision.org/images/nav-over-bg.gif);
+}
+
+.navigation:hover a {
+	color: white;
+	text-decoration: none;
+}
+*/
+
+.navigation-on {
+	font-size: 12px;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	font-weight: bold;
+	text-shadow: 0px 1px black;
+	color: white;
+	background-image: url(http://www.istevision.org/images/nav-on-bg.gif);
+}
+
+.navigation-on a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-search {
+	height: 36px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/nav-off-bg.gif);
+}
+
+.navigation-account {
+	height: 36px;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/nav-off-bg.gif);
+}
+
+.account {
+	font-size: 10px;
+	text-align: center;
+	background-repeat: repeat-x;
+	height: 18px;
+	background-image: url(http://www.istevision.org/images/account-bg.gif);
+}
+
+.account a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.contents {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/fader-background.gif);
+	background-color: #69696a;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+.contents-watch {
+	background-color: #434343;
+	background-repeat: repeat-x;
+	background-position: 0 top;
+	background-image: url(http://www.istevision.org/images/fader3-background.gif);
+}
+
+.contents-live {
+	width: 700px;
+	height: 600px;
+	background-image: url(http://www.istevision.org/images/stage.jpg);
+	background-position: 0 top;
+	background-repeat: no-repeat;
+	color: white;
+	background-color: black;
+	border-left-color: #cccccc;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+.contents-live-sidebar {
+	border-left-color: #666666;
+	border-left-width: 1px;
+	border-left-style: solid;
+	width: 220px;
+	height: 600px;
+	background-repeat: no-repeat;
+	color: white;
+	background-color: #333333;
+	border-right-color: #cccccc;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.contents-inner {
+	border-right-color: #848484;
+	border-left-color: #848484;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	padding: 20px;
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/fader2-background.gif);
+	background-color: #848484;
+}
+
+.topic-title {
+	background-color: #434343;
+	font-weight: bold;
+	padding: 10px;
+	text-shadow: 0px 1px #191919;
+	font-size: 18px;
+	color: #e6e6e6;
+}
+
+.sub-navigation {
+	font-size: 10px;
+	background-image: url(http://www.istevision.org/images/sub-nav-bg.gif);
+	background-repeat: repeat-x;
+	height: 30px;
+}
+
+.sub-nav-leftactive {
+	margin-left: 10px;
+	float: left;
+	height: 30px;
+	width: 5px;
+	background-image: url(http://www.istevision.org/images/sub-nav-lcap.gif);
+	background-repeat: no-repeat;
+}
+
+.sub-nav-active {
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	line-height: 32px;
+	height: 30px;
+	background-image: url(http://www.istevision.org/images/sub-nav-active-bg.gif);
+	background-repeat: repeat-x;
+}
+
+.sub-nav-active a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sub-nav-rightactive {
+	margin-right: 10px;
+	float: left;
+	height: 30px;
+	width: 7px;
+	background-image: url(http://www.istevision.org/images/sub-nav-rcap.gif);
+	background-repeat: no-repeat;
+}
+
+.sub-nav-inactive {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.sub-nav-inactive a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.sub-nav-inactive a:hover {
+	color: black;
+}
+
+.thumbnails {
+	padding-bottom: 15px;
+	height: 147px;
+	width: 142px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/thumbnail-bg.png);
+}
+
+.thumb-picture {
+	border-width: 1px;
+	padding-top: 5px;
+}
+
+.thumb-title {
+	background-color: white;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.thumb-title a {
+	color: #191919;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.thumb-title a:hover {
+	color: blue;
+}
+
+.thumb-views {
+	padding-top: 3px;
+	color: #e6e6e6;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 10px;
+}
+
+.thumb-user {
+	padding-top: 3px;
+	color: white;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 10px;
+}
+
+.thumb-user a {
+	text-decoration: none;
+	color: #696969;
+	cursor: pointer;
+}
+
+.thumb-user a:hover {
+	color: blue;
+}
+
+.count-down {
+	margin-left: 150px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	width: 400px;
+	border-color: #333333;
+	border-width: 2px;
+	border-style: solid;
+	margin-top: 250px;
+}
+
+.sidebar-header {
+	color: white;
+	text-shadow: 0px 1px black;
+	font-weight: bold;
+	font-size: 18px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.sidebar-bubble-top {
+	margin-top: 20px;
+	text-shadow: 0px 1px black;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	background-image: url(http://www.istevision.org/images/sidebar-top.png);
+	background-repeat: no-repeat;
+}
+
+.sidebar-bubble-image {
+	border-left-color: #696969;
+	border-right-color: #696969;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	height: 150px;
+	width: 198px;
+}
+
+.sidebar-bubble-bottom {
+	line-height: 30px;
+	text-shadow: 0px 1px #cccccc;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+	width: 200px;
+	height: 30px;
+	background-image: url(http://www.istevision.org/images/sidebar-bottom.png);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+}
+
+.sidebar-bubble-bottom a {
+	color: black;
+	text-decoration: none;
+}
+
+.channel-bubble-top {
+	margin-top: 20px;
+	text-shadow: 0px 1px black;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	background-image: url(http://www.istevision.org/images/sidebar-top.png);
+	background-repeat: no-repeat;
+}
+
+.channel-bubble-image {
+	border-left-color: #696969;
+	border-right-color: #696969;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	height: 150px;
+	width: 198px;
+}
+
+.channel-bubble-links {
+	text-align: left;
+	line-height: 30px;
+	width: 198px;
+	border-left-color: #696969;
+	border-right-color: #696969;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.channel-bubble-link {
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-color: #696969;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	line-height: 30px;
+	height: 30px;
+	text-shadow: 0px 1px #cccccc;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.channel-bubble-link a {
+	text-decoration: none;
+	color: black;
+}
+
+.channel-bubble-link a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+.channel-bubble-linkb {
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 30px;
+	height: 30px;
+	text-shadow: 0px 1px #cccccc;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.channel-bubble-linkb a {
+	text-decoration: none;
+	color: black;
+}
+
+.channel-bubble-linkb a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+.channel-bubble-bottom {
+	width: 200px;
+	height: 30px;
+	background-image: url(http://www.istevision.org/images/sidebar-bottom.png);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+}
+
+.goto-image {
+	height: 30px;
+	border-bottom-color: #696969;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.slider-header {
+	
+	padding-left: 30px;
+	
+	color: white;
+	
+	text-shadow: 0px 1px #666666;
+	
+	font-weight: bold;
+	
+	font-size: 18px;
+	
+}
+
+.goto-channel {
+	padding-left: 5px;
+}
+
+.slider-1 {
+	margin-bottom: 35px;
+	width: 880px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/slider-1.png);
+	height: 159px;
+}
+
+.slider-2 {
+	margin-bottom: 35px;
+	width: 880px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/slider-3.png);
+	height: 159px;
+}
+
+.slider-3 {
+	margin-bottom: 35px;
+	width: 880px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/slider-2.png);
+	height: 159px;
+}
+
+.slider-4 {
+	margin-bottom: 35px;
+	width: 880px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/slider-4.png);
+	height: 159px;
+}
+
+.watch-title {
+	text-shadow: 0px 1px black;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.watch-video {
+	text-align: center;
+}
+
+.watch-posted {
+	text-shadow: 0px 1px black;
+	color: #e6e6e6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 18px;
+	text-align: left;
+}
+
+.watch-views {
+	padding-right: 18px;
+	text-shadow: 0px 1px black;
+	color: #e6e6e6;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.watch-comments {
+	padding: 5px;
+	background-color: #cccccc;
+}
+
+.watch-comments-topic {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	text-shadow: 0px 1px white;
+}
+
+.watch-comments-post {
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: white;
+	border-color: #191919;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.watch-comments-poster {
+	font-style: italic;
+	font-size: 10px;
+	padding-bottom: 5px;
+	color: #333333;
+}
+
+.watch-comments-message {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.watch-comments-button {
+	text-align: right;
+}
+
+.watch-description {
+	padding: 10px;
+	color: #e6e6e6;
+	margin-left: 15px;
+	background-color: #666666;
+	height: 200px;
+	overflow: auto;
+}
+
+.watch-criteria {
+	padding: 5px;
+	background-color: #d2d1c8;
+	margin-left: 15px;
+}
+
+.watch-embed {
+	margin-left: 15px;
+	padding: 10px;
+	background-color: #191919;
+}
+
+.topic {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px;
+	color:#333;
+}
+
+.settings { padding: 3px; text-align: right; font-size: 11px; vertical-align: bottom;}
+.settings a { text-decoration: none; color: #191919;}
+.settings a:hover { text-decoration: underline;}
+
+.sorting { border: 1px solid #999;}
+
+.sort_image { display: inline; padding-top: 1px; padding-right: 3px;}
+.sort_on {
+	font-size: 10px;
+	background-image: url(../images/list_head_sortedby.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	font-weight: bold;
+	text-align: left;
+}
+.sort_on a { text-decoration: none; color: #191919;}
+.sort_off {
+	font-size: 10px;
+	background-image: url(../images/list_head.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	font-weight: bold;
+	text-align: left;
+}
+.sort_off a { text-decoration: none; color: #191919;}
+.even {	font-size: 10px; background-color: #FFF; height: 20px; padding-right: 5px; padding-left: 5px; text-align: left;}
+.even a {text-decoration: none; color: #191919;}
+.even a:hover {text-decoration: underline;}
+.odd { font-size: 10px; background-color: #EEE; height: 20px; padding-right: 5px; padding-left: 5px; text-align: left;}
+.odd a {text-decoration: none; color: #191919;}
+.odd a:hover {text-decoration: underline;}
+
+.form_div { font-size: 10px; line-height: 16px; padding-bottom: 5px;}
+.form_required { font-weight: bold; color: blue;}
+.form_optional { font-weight: bold; color: #000;}
+
+/* These are for displaying the error and information messages on the screen. */
+.errMessage { width:100%; padding:1px 0 1px 0; margin:0;}
+.errMessage .icon { background: url(../images/error_alert.png) no-repeat;height:20px; width:32px; padding:0; margin:0; }
+.errMessage .msg { background: #FFBFC5; text-align:left; vertical-align:middle; white-space:nowrap; }
+.infMessage { width:100%; padding:1px 0 2px 0; margin:0;}
+.infMessage .icon { background: url(../images/success_check.png) no-repeat;height:20px; width:32px; padding:0; margin:0; }
+.infMessage .msg { background: #B3EFB5; text-align:left; vertical-align:middle; white-space:nowrap; }
+
+.ErrorMessage { background: #FFBFC5; color: #601319; border-left: 3px solid #601319; padding: 2px 4px; margin: 2px 0; }
+.ErrorMessage A { color: black; }
+.InfoMessage { background-color: #B3EFB5; color: #144F16; border-left: 3px solid #144F16; padding: 2px 4px; margin:0 0 4px; }
+.InfoMessage A { color: black; }
+
+/* Playlist Styles */
+#playlist {
+	background-color: white;
+	margin-top: 3px;
+	width: 100%;
+	height: 300px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	border:1px solid #ccc;
+}
+
+/* playlist entry */
+#playlist a {
+	padding: 5px;
+	background-color: white;
+	display:block;
+	width: 100%;
+	height: 85px;
+	font:11px "bitstream vera sans", "lucida grande",verdana;
+	text-decoration:none;
+	color:#666;
+}
+
+/* different states of a playlist entry */
+#playlist a:hover {
+	background-color:#ffc;		
+}
+
+#playlist a.progress {
+	background-color:#efefef;	
+}
+
+#playlist a.playing {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+
+#playlist a.paused {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+
+/* elements inside playlist entry */
+#playlist a img {
+	border:0;	
+	float:left;
+	margin-right:10px;
+}
+
+#playlist a strong {
+	color:blue;
+}
+
+#playlist p {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 3px;
+	margin: 0px;
+}
+
+#playlist a em {
+	padding-top: 3px;	
+	float:left;
+	background:url(/img/demos/clock.gif) no-repeat 0 50%;
+	color:#333;
+	font-style:normal;
+}

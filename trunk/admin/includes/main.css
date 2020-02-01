@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,td,th { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #000;}
+body { background-color: #FFF; margin-left: 0px; margin-top: 10px; margin-right: 0px; margin-bottom: 0px;}
+
+/* This is used for the top of the page.*/
+.settings { text-align: right; font-size: 11px; vertical-align: bottom;}
+.settings a { text-decoration: none; color: #00F;}
+.settings a:hover { text-decoration: underline;}
+.navigation { padding-bottom: 20px;}
+.nav_bar {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #EEE;
+	padding: 3px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999;
+	border-left-color: #CFF;
+}
+.nav_bar a { text-decoration: none;}
+
+/* log in page */
+.login_fields { font-size: 10px; line-height: 16px; padding-bottom: 5px;}
+.login_header { font-size: 10px; font-weight: bold; padding-bottom: 10px;}
+.l_form_title { font-size: 11px; font-weight: bold; background-color: #eee;}
+
+/* User Forms */
+.view_admin_info { height: 20px;}
+.view_admin_fields { height: 20px; font-weight: bold;}
+
+.form_div { font-size: 10px; line-height: 16px; padding-bottom: 5px;}
+.form_required { font-weight: bold; color: blue;}
+.form_optional { font-weight: bold; color: #000;}
+.share_blurb { color: #FFF; padding: 5px; background-color: #0038A8; line-height: 16px; font-size: 11px; font-style: italic;}
+.sorting { border: 1px solid #999;}
+.sort_image { display: inline; padding-top: 1px; padding-right: 3px;}
+.sort_on {
+	font-size: 10px;
+	background-image: url(../images/list_head_sortedby.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	font-weight: bold;
+	text-align: left;
+}
+.sort_on a { text-decoration: none; color: blue;}
+.sort_off {
+	font-size: 10px;
+	background-image: url(../images/list_head.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	font-weight: bold;
+	text-align: left;
+}
+.sort_off a { text-decoration: none; color: blue;}
+.even {	font-size: 10px; background-color: #FFF; height: 20px; padding-right: 5px; padding-left: 5px; text-align: left;}
+.odd { font-size: 10px; background-color: #EEE; height: 20px; padding-right: 5px; padding-left: 5px; text-align: left;}
+
+.search_header {
+
+	padding-bottom: 8px;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+}
+.search_field {
+
+	font-size: 10px;
+
+}
+
+/* bottom footer information */
+.copyright { margin: 0px; padding-left: 10px; font-size: 10px; line-height: 16px; color: #FFF;}
+
+/* This is for the public page */
+.video_thumbs_pic { text-align:left; padding-top: 15px;}
+.video_thumbs_title { font-size: 11px; width: 124px;}
+.video_thumbs_title a {	font-weight: bold; text-decoration: none; color: #0038a8;}
+.video_thumbs_title a:hover { text-decoration: underline;}
+.video_thumbs_views { padding-bottom: 1px; padding-top: 4px; color: #4c4c4c; font-size: 10px;}
+.video_thumbs_poster { font-size: 10px; padding-bottom: 15px;}
+.video_thumbs_poster a { color: blue; text-decoration: none; font-size: 10px;}
+.video_thumbs_poster a:hover { text-decoration: underline; font-size: 10px;}
+
+/* video playback CSS */
+.video_title { text-align: left; font-size: 13px; font-weight: bold; color: #333; padding-bottom: 5px;}
+.video_playback_big { background-color: black;}
+.video_information {
+	background-color: #e6e6e6;
+	padding: 5px;
+	border-right-color: #4c4c4c;
+	border-left-color: #4c4c4c;
+	border-bottom-color: #4c4c4c;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+}
+.video_description { text-align: left; padding-top: 5px; font-size: 12px; line-height: 14px;}
+.video_tab_top {
+	margin-top: 15px;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	border-top-color: #999999;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-width: 1px;
+}
+.video_tab_top_active { text-align: center; padding: 5px; font-size: 12px; font-weight: bold;}
+.video_tab_top_inactive { text-align: center; font-size: 12px; font-weight: bold; background-color: #e6e6e6; padding: 5px;}
+.video_tab_box {
+	padding: 10px;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-right-color: #999999;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+}
+.video_topic { background-color: #EEE; padding: 3px; border: 1px solid #999; font-size: 12px; font-weight: bold; color: #333;}
+.white_box { border:solid 1px #999; margin-top:20px;}
+.embed_box { background-color: #e6e6e6; border:solid 1px #999; margin-top:20px;}
+.gray_box { border:solid 1px #999; margin-top: 20px; background:#ebebeb;}
+.box_items { padding: 5px 7px 0 7px;}
+
+/* These are for displaying the error and information messages on the screen. */
+.errMessage { width:100%; padding:1px 0 1px 0; margin:0;}
+.errMessage .icon { background: url(../images/error_alert.png) no-repeat;height:20px; width:32px; padding:0; margin:0; }
+.errMessage .msg { background: #FFBFC5; text-align:left; vertical-align:middle; white-space:nowrap; }
+.infMessage { width:100%; padding:1px 0 2px 0; margin:0;}
+.infMessage .icon { background: url(../images/success_check.png) no-repeat;height:20px; width:32px; padding:0; margin:0; }
+.infMessage .msg { background: #B3EFB5; text-align:left; vertical-align:middle; white-space:nowrap; }
+
+.ErrorMessage { background: #FFBFC5; color: #601319; border-left: 3px solid #601319; padding: 2px 4px; margin: 2px 0; }
+.ErrorMessage A { color: black; }
+.InfoMessage { background-color: #B3EFB5; color: #144F16; border-left: 3px solid #144F16; padding: 2px 4px; margin:0 0 4px; }
+.InfoMessage A { color: black; }
+
+/* Playlist Styles */
+#playlist {
+	background-color: white;
+	margin-top: 3px;
+	width: 100%;
+	height: 300px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	border:1px solid #ccc;
+}
+
+/* playlist entry */
+#playlist a {
+	padding: 5px;
+	background-color: white;
+	display:block;
+	width: 100%;
+	height: 85px;
+	font:11px "bitstream vera sans", "lucida grande",verdana;
+	text-decoration:none;
+	color:#666;
+}
+
+/* different states of a playlist entry */
+#playlist a:hover {
+	background-color:#ffc;		
+}
+
+#playlist a.progress {
+	background-color:#efefef;	
+}
+
+#playlist a.playing {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+
+#playlist a.paused {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+
+/* elements inside playlist entry */
+#playlist a img {
+	border:0;	
+	float:left;
+	margin-right:10px;
+}
+
+#playlist a strong {
+	color:blue;
+}
+
+#playlist p {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 3px;
+	margin: 0px;
+}
+
+#playlist a em {
+	padding-top: 3px;	
+	float:left;
+	background:url(/img/demos/clock.gif) no-repeat 0 50%;
+	color:#333;
+	font-style:normal;
+}
+
+/* NEW CSS */
+.view_more {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.view_more a {
+	color: blue;
+	text-decoration: none;
+}
+
+.channel_bar {
+	margin-bottom: 15px;
+	border-color: #999;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #EEE;
+}
+
+.channel_title {
+	padding: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.channel_search {
+	padding: 3px;
+}

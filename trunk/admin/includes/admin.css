@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+body {
+	background-color: #D9E0C6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.nav-left-on {
+	background-position: 0 top;
+	background-color: #d2d2c8;
+	background-image: url(http://www.istevision.org/images/admin-on-left.gif);
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 34px;
+}
+
+.nav-right-on {
+	background-position: 0 top;
+	background-color: #d2d2c8;
+	width: 5px;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/admin-on-right.gif);
+}
+
+.nav-bg-on {
+	background-position: 0 top;
+	background-color: #d2d2c8;
+	text-align: center;
+	text-shadow: 0px 1px white;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 34px;
+	height: 34px;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/admin-on-bg.gif);
+}
+
+.nav-bg-on a {
+	color: black;
+	text-decoration: none;
+}
+
+.nav-left-off {
+	background-position: 0 top;
+	background-image: url(http://www.istevision.org/images/admin-off-left.gif);
+	background-repeat: no-repeat;
+	border-bottom-color: #5b5b5b;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	width: 5px;
+	height: 34px;
+}
+
+.nav-right-off {
+	background-position: 0 top;
+	width: 5px;
+	border-bottom-color: #5b5b5b;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-image: url(http://www.istevision.org/images/admin-off-right.gif);
+}
+
+.nav-bg-off {
+	background-position: 0 top;
+	border-bottom-color: #5b5b5b;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	text-align: center;
+	text-shadow: 0px 1px black;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	line-height: 34px;
+	height: 34px;
+	background-repeat: repeat-x;
+	background-image: url(http://www.istevision.org/images/admin-off-bg.gif);
+}
+
+.nav-bg-off a {
+	color: white;
+	text-decoration: none;
+}
+
+.contents {
+	background-color: #d2d2c8;
+	border-left-color: #5b5b5b;
+	border-right-color: #5b5b5b;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bandwidth>
+<item>
+	<nm>320x240@15fps</nm>
+	<df>0</df>
+	<bytes>64000</bytes>
+	<q>0</q><fps>15</fps><kfps>60</kfps>
+	<w>320</w><h>240</h>
+	<snd>44</snd>
+	<sndSilencelevel>0</sndSilencelevel>
+</item>
+</bandwidth>

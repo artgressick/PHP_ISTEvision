@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.overlay {
+	background:url(http://www.istevision.org/images/white.png) no-repeat;
+	padding:40px;	
+	width:576px;  
+	display:none;
+}
+
+div.overlay div.close {
+	background:url(http://www.istevision.org/images/close.png) no-repeat;
+	position:absolute;
+	top:2px;
+	right:5px; 
+	width:35px;
+	height:35px;
+	cursor:pointer;
+}
+
+/*a.player { 		
+	display:block;
+	height:450px;			
+}*/
+
+/* styling of the container. */
+a.myPlayer {
+	display:block;
+	height:425px;
+	/*width: 320px;
+	height:450px; 
+	text-align:center;
+	margin:0 15px 15px 0;
+	float:left;
+	border:1px solid #999;*/
+}
+
+/* play button */
+/*a.myPlayer img {
+	margin-top:70px;
+	border:0px;
+}*/
+
+/* when container is hovered we alter the border color */
+/*a.myPlayer:hover {
+	border:1px solid #000;
+}*/
